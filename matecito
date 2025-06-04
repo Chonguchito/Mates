@@ -1,0 +1,1 @@
+$(eval let q=decodeURIComponent(`$(querystring)`) ; u=`$(user)` ; t=`1`; random='$(urlfetch https://commands.garretcharp.com/twitch/chatter/$(channel))' ; if(q==0){t=`${random}`;}else {t=q;} ; line = `$(urlfetch json https://pastebin.com/raw/b2Mc0gz3)`.split(`;`) ; line[Math.floor(Math.random()*line.length)])
